@@ -1,0 +1,20 @@
+nav{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    border: 1px solid rgb(126, 117, 117);
+    box-shadow: 1px 5px 8px rgb(216, 211, 211);
+}
+.kin{
+    color: #2695CB;
+}
+.der{
+    color: #e320ac;
+}
+.gar{
+    color: #F3CE32;
+}
+.ten{
+    color: #39DFDC;
+}
+

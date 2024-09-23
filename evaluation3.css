@@ -1,0 +1,124 @@
+.header0{
+    border:1px solid green;
+    height: 40px;
+    align-items: center;
+    padding-top: 13px;
+    background-color:rgb(255,255,255)
+
+}
+.header{
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255,255,255);
+    
+}
+*{
+    padding:0px;
+    margin: 0px;
+    text-decoration: none;
+}
+.header111>img{
+    width: 20px;
+    margin-right:8px;
+}
+.header111{
+    display: flex;
+    justify-content: space-between;
+}
+.header11{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7px;
+    align-items: center;
+    margin-right: ;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    width: 29%;
+    margin-left: -90px;
+}
+.header222>img{
+    width: 25px;
+    height: 23px;
+    border-radius:25px;
+    overflow: hidden;
+    margin-right: 10px ;
+}
+.header2{
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 400px;
+    align-items: center;
+    margin-right: -80px;
+}
+.header22{
+    display: flex;
+    align-items: center;
+
+}
+.header22>a{
+    color: black;
+    font-weight: 700;
+}
+.header111>p{
+    color: black;
+    font-weight: 700;
+}
+.navdiv{
+   
+    color: black;
+    height: 60px;
+}
+.imglogo{
+    color: black;
+}
+.navbar{
+    background-color: rgb(26,26,26);
+    padding: 20px;
+    
+}
+.logo{
+    
+}
+.item{
+    
+    width: 850px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item a{
+    color:white ;
+    font-weight: 700;
+}
+.button>button{
+    height: 40px;
+    color: black;
+    font-weight: 700;
+    width: 90px;
+
+}
+.navdiv{
+    display:flex;
+    justify-content: space-between;
+}
+.item{
+    display: flex;
+
+}
+.bigimg{
+    background-image: url(https://themewagon.github.io/hiroto/img/hero.jpg);
+    height:800px;
+    text-align: center;
+    padding-top: 50px;
+}
+.heading1b>h1{
+    font-size: 80px;
+}
+.form{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,400 @@
+.nav{
+  
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(69, 58, 93);
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    margin-bottom:156px
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+   font-weight: 600;
+    flex-grow: .5;
+    align-items: center;
+    color:white;
+}
+.main1{
+    border: 2px solid rgb(104, 6, 6);
+    background-color: rgb(40,19,81);
+    
+}
+button{
+    width: Hug (131px)px;
+height: Hug (40px)px;
+padding: 8px 14px 8px 14px;
+gap: 4px;
+border-radius: 20px ;
+opacity: 0px;
+background-color: white;
+border: none;
+margin-right: 8px;
+font-weight: 700;
+
+}
+.logo{
+    margin-left: 20px;
+}
+.part1{
+    border: 2px solid gold;
+}
+.subpart11{
+    border:2px solid red;
+}
+.web{
+    background: linear-gradient(94.68deg, #FF0276 2.51%, #7209B7 56.42%);
+    -webkit-text-fill-color:transparent ;
+    -webkit-background-clip: text;
+
+}
+.subpart11>div:nth-child(1){
+    color:white;
+    width: 52%;
+height: 216px;
+top: 298px;
+left: 248px;
+gap: 0px;
+opacity: 0px;
+
+font-family: Satoshi;
+font-size: 80px;
+font-weight: 900;
+line-height: 108px;
+text-align: center;
+margin: auto;
+border:1px solid yellow
+
+}
+.subpart11>h4{
+    color: white;
+    border:2px solid orange;
+    
+font-family: Satoshi;
+font-size: 24px;
+font-weight: 700;
+line-height: 32.4px;
+text-align: center;
+width: 51%;
+margin: auto;
+margin-bottom: 18px;
+
+}
+.get{
+    display: flex;
+    margin: auto;
+    border: 1px solid yellowgreen;
+    justify-content: center;
+    margin-bottom: 80px;
+    
+}
+.get>button{
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(205.14deg, #3F37C9 30.04%, #4CC9F0 186.57%);
+    align-items: center;
+    margin-right: 1.8%;
+
+}
+.view{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 7%;
+    align-items: center;
+    font-weight: 700;
+
+}
+.backed{
+    
+font-family: Satoshi;
+font-size: 24px;
+font-weight: 700;
+line-height: 32.4px;
+text-align: center;
+width: 142.28px;
+height: 32px;
+top: 744px;
+left: 651px;
+gap: 0px;
+opacity: 0px;
+color: #DADDD8;
+margin-bottom: 41px;
+
+
+}
+.mlogo{
+    border: 2px solid green;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    height:100px;
+    border-radius: 40px;
+    backdrop-filter: blur(300px);
+    margin-bottom: 87px;
+
+    
+}
+.mlogo>div>img{
+    width: 9.875rem;
+}
+.lync{
+    color: white;
+    border: 1px solid green;
+    
+    width: 800px;
+height: 129px;
+top: 1042px;
+left: 248px;
+gap: 0px;
+opacity: 0px;
+
+font-family: Satoshi;
+font-size: 32px;
+font-weight: 700;
+line-height: 43.2px;
+text-align: center;
+margin: auto;
+margin-bottom: 9.063rem;
+
+
+}
+.line1{
+    position: absolute;
+    bottom: -310px;
+    left: 28%;
+}
+.mm{
+    border: 1px solid red;
+    margin-bottom: 8.125rem;
+
+}
+.mm>h2{
+    font-family: Satoshi;
+font-size: 48px;
+font-weight: 900;
+line-height: 64.8px;
+text-align: center;
+
+color: #FFFFFF;
+
+font-family: Satoshi;
+font-size: 48px;
+font-weight: 900;
+line-height: 64.8px;
+text-align: center;
+width: 50%;
+height: 8.125rem;
+top: 1330px;
+left: 328px;
+gap: 0px;
+opacity: 0px;
+margin: auto;
+margin-top: 2.5rem;
+margin-bottom: 4.75rem;
+
+}
+.l1{
+    width: 111px;
+    height: 105px;
+    top: 1536px;
+    left: 168px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.l2{
+    width: 154px;
+height: 80px;
+top: 1548px;
+left: 375px;
+gap: 0px;
+opacity: 0px;
+
+}
+.l3{
+    width: 230px;
+height: 70px;
+top: 1550px;
+left: 627px;
+gap: 0px;
+opacity: 0px;
+
+}
+.l4{
+    width: 169px;
+    height: 34px;
+    top: 1572px;
+    left: 922px;
+    gap: 0px;
+    opacity: 0px;
+}
+    
+.l5{
+    width: 99px;
+height: 93px;
+top: 1548px;
+left: 1173px;
+gap: 0px;
+opacity: 0px;
+
+}
+.logo3{
+    display: flex;
+    width: 65%;
+    border: 1px solid orange;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.313rem;
+}
+.power{
+    border:1px solid grey;
+    width: 864px;
+height: 130px;
+top: 1809px;
+left: 288px;
+gap: 0px;
+opacity: 0px;
+
+font-family: Satoshi;
+font-size: 48px;
+font-weight: 900;
+line-height: 64.8px;
+text-align: center;
+font-family: Satoshi;
+font-size: 48px;
+font-weight: 900;
+line-height: 64.8px;
+text-align: center;
+color: white;
+margin: auto;
+margin-bottom: .813rem;
+}
+.lync{
+    border: 1px solid orange;
+font-family: Satoshi;
+font-size: 24px;
+font-weight: 700;
+line-height: 32.4px;
+text-align: center;
+width: 46.875rem;
+height: 64px;
+top: 1951px;
+left: 331px;
+gap: 0px;
+opacity: 0px;
+color: #DADDD8;
+
+
+}
+.dont{
+    border:1px solid yellow;
+    width: 70%;
+    margin: auto;
+    padding: 3.313rem 5rem;
+    
+
+}
+.dontworry{
+    
+font-family: Satoshi;
+font-size: 32px;
+font-weight: 700;
+line-height: 43.2px;
+text-align: left;
+font-family: Satoshi;
+font-size: 32px;
+font-weight: 700;
+line-height: 43.2px;
+text-align: left;
+width: 629px;
+height: 86px;
+top: 2167px;
+left: 248px;
+gap: 0px;
+opacity: 0px;
+color: white;
+
+
+}
+.save{
+    
+font-family: Satoshi;
+font-size: 24px;
+font-weight: 500;
+line-height: 32.4px;
+text-align: left;
+width: 600px;
+height: 32px;
+top: 2240px;
+left: 297px;
+gap: 0px;
+opacity: 0px;
+color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.imgcontainer{
+    border:1px solid red;
+    display: flex;
+    justify-content: center;
+}
+.imgcontainer>div>img{
+    width: 400px;
+
+top: 2668px;
+left: 168px;
+gap: 0px;
+border-radius: 32.24px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+
+}
+.product{
+    border: 1px solid red;
+  
+font-family: Satoshi;
+font-size: 48px;
+font-weight: 900;
+line-height: 64.8px;
+text-align: center;
+font-family: Satoshi;
+font-size: 48px;
+font-weight: 900;
+line-height: 64.8px;
+text-align: center;
+width: 438px;
+height: 65px;
+top: 3157px;
+left: 501px;
+gap: 0px;
+opacity: 0px;
+color: white;
+margin: auto;
+margin-top: 5rem;
+margin-bottom: 5rem;
+
+}
+.containergrid{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    border: 2px solid green;
+    width: 70%;
+    margin:auto;
+
+}
+.wallet{
+    width: 25%;
+    
+}

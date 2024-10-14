@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="product-title"></h1>
+    </header>
+
+    <section class="product-detail">
+        <div class="image-slider">
+            <button onclick="prevImage()">Previous</button>
+            <img id="detail-image" src="" alt="Product Image">
+            <button onclick="nextImage()">Next</button>
+        </div>
+        <div class="product-info">
+            <p id="product-description"></p>
+            <p>Price: $<span id="product-price"></span> <span class="strike">$<span id="strike-price"></span></span></p>
+            <p>Available Quantity: <span id="product-quantity"></span></p>
+            <p>Category: <span id="product-category"></span></p>
+            <p>Average Rating: <span id="product-rating"></span></p>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <h2>User Reviews</h2>
+        <div id="reviews-list"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

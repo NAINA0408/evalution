@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Display</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Product Catalog</h1>
+        <div class="cart-counter">
+            Cart: <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <section class="filters">
+        <input type="text" id="search-bar" placeholder="Search products..." oninput="searchProducts()">
+        <select id="sort-options" onchange="sortProducts()">
+            <option value="">Sort by</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+            <option value="name-asc">Name: A to Z</option>
+            <option value="name-desc">Name: Z to A</option>
+        </select>
+        <div class="category-filter">
+            <label>Category:</label>
+            <select id="category-select" onchange="filterProducts()">
+                <option value="">All</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Wearables">Wearables</option>
+                <option value="Home & Kitchen">Home & Kitchen</option>
+                <option value="Cameras">Cameras</option>
+                <option value="Furniture">Furniture</option>
+            </select>
+        </div>
+        <div class="price-filter">
+            <label>Price Range:</label>
+            <input type="number" id="min-price" placeholder="Min" oninput="filterProducts()">
+            <input type="number" id="max-price" placeholder="Max" oninput="filterProducts()">
+        </div>
+    </section>
+
+    <section id="product-list" class="product-list"></section>
+
+    <script src="script.js"></script>
+</body>
+</html>
